@@ -30,7 +30,7 @@ resource "aws_instance" "awsterra" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "aws-terraform"
+    Name = "aws-terraform-prod"
   }
 }
 
